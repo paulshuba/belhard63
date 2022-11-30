@@ -1,4 +1,4 @@
-# User enters a sentence, change all spaces with "-" symbol by 2 ways
+# User enters a sentence, change all spaces with "-" symbol by 2 ways.
 
 # Way 1
 sentence = input('Please, enter your sentence: ')
