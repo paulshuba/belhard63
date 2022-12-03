@@ -106,9 +106,48 @@
 # tuple = tuple(list)
 # print(tuple)
 
-tuple = (1, 2, 3, 4)
-tuple_list = list(tuple)
-tuple_list.append('new')
-print(tuple_list)
-# tuple2 = tuple(tuple_list)
-# print(tuple2)
+# tpl = (1, 2, 3, 4)
+# tpl_list = list(tpl)
+# tpl_list.append('new')
+# print(tpl_list)
+# tpl = tuple(tpl_list)
+# print(tpl_list)
+
+# tpl = (1, 2, 3, 4)
+# new_set = set(tpl)
+# print(new_set)
+
+# start_set = 'text'
+# new_set = {i for i in start_set}
+# print(new_set)
+
+# new_set = set('text')
+# print(new_set)
+
+# a = {i**2 for i in range(10)}
+# print(a)
+
+# set_1 = {1, 2, 3, 4}
+# set_2 = {3, 5}
+# set_3 = {5, 6}
+# print(set_1.isdisjoint(set_2))
+# print(set_1.isdisjoint(set_3))
+
+# set_1 = {1, 2, 3, 4}
+# set_2 = {3, 5}
+# set_1.intersection_update(set_2)
+# print(set_1)
+
+user1 = {
+    'name': 'Pavel',
+    'age': 34,
+    'city': 'Slutsk'
+}
+print(user1)
+user1['name'] = 'Anton'
+print(user1)
+print(user1['name'])
+print(user1.get('name'))
+print(user1.setdefault('name'))
+print(user1.setdefault('hobby', None))
+print(user1)
