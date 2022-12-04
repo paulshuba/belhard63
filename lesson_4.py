@@ -135,19 +135,31 @@
 
 # set_1 = {1, 2, 3, 4}
 # set_2 = {3, 5}
-# set_1.intersection_update(set_2)
-# print(set_1)
+# # set_1.intersection_update(set_2)
+# # # print(set_1)
+# #
+# user1 = {
+#     'name': 'Pavel',
+#     'age': 34,
+#     'city': 'Slutsk'
+# }
+# print(user1)
+# user1['name'] = 'Anton'
+# print(user1)
+# print(user1['name'])
+# print(user1.get('name'))
+# print(user1.setdefault('name'))
+# print(user1.setdefault('hobby', None))
+# user1['sex'] = 'Male'
+# print(user1)
+# print(user1.keys())
 
-user1 = {
-    'name': 'Pavel',
-    'age': 34,
-    'city': 'Slutsk'
-}
-print(user1)
-user1['name'] = 'Anton'
-print(user1)
-print(user1['name'])
-print(user1.get('name'))
-print(user1.setdefault('name'))
-print(user1.setdefault('hobby', None))
-print(user1)
+# import collections
+# text = input()
+# data = collections.Counter(text)
+# print(data)
+
+text = input()
+dict1 = {i:text.count(i) for i in text}
+
+print(dict1)
