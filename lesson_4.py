@@ -158,8 +158,8 @@
 # text = input()
 # data = collections.Counter(text)
 # print(data)
-
-text = input()
-dict1 = {i:text.count(i) for i in text}
-
-print(dict1)
+#
+# text = input()
+# dict1 = {i:text.count(i) for i in text}
+#
+# print(dict1)
